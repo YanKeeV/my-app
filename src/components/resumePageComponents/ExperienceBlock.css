@@ -1,0 +1,30 @@
+.experienceContainer {
+    margin-top: 30px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.line {
+    height: 5px;
+    background-color: #052659;
+}
+
+.experienceItem {
+    display: flex;
+    margin-top: 15px;
+}
+
+.experienceItemLeft {
+    width: 320px;
+}
+
+.experienceItemRight {
+    flex: 1;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #C1E8FF;
+    font-size: 32px;
+}

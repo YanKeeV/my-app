@@ -1,0 +1,19 @@
+.cvContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cvBackground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #021024;
+}
+
+.cvText{
+    color: #052659;
+    font-size: 48px;
+    width: 60vw;
+}

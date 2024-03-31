@@ -1,0 +1,18 @@
+.notFoundContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.notFoundBackground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #021024;
+}
+
+.notFoundText{
+    color: #052659;
+    font-size: 128px;
+}

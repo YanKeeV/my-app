@@ -1,0 +1,108 @@
+.adminLanguageContainer{
+    margin-top: 60px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.adminLanguageHeader{
+    height: 70px;
+    background-color: #052659;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.adminLanguageName{
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.adminLanguageSubmit{
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: 3px solid #24FF00;
+    background-color: transparent;
+    color: #24FF00;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.adminItemDelete{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: 3px solid #FF0000;
+    background-color: transparent;
+    color: #FF0000;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.adminLanguageInputs{
+    margin-top: 20px;
+}
+
+.adminLanguageInput{
+    background-color: transparent;
+    border: 4px solid #052659;
+    border-radius: 30px;
+    height: 70px;
+    text-indent: 25px;
+    font-size: 32px;
+    width: 42.5vw;
+    color: #C1E8FF;
+}
+
+.adminLanguageInput::placeholder {
+    color: #052659; 
+    font-size: 32px;
+}
+
+.adminItemHeader{
+    margin: 25px 25px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminLanguageTopInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminLanguageInputBottom{
+    background-color: transparent;
+    border: 4px solid #052659;
+    border-radius: 30px;
+    min-height: 70px;
+    text-indent: 25px;
+    font-size: 32px;
+    width: 100%;
+    color: #C1E8FF;
+    margin-top: 30px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.adminLanguageInputBottom::placeholder {
+    color: #052659; 
+    font-size: 32px;
+}
+
+.adminLanguageItem{
+    margin-top: 30px;
+    background-color: #052659;
+    border-radius: 30px;
+}
+
+.adminItemInfo{
+    font-size: 32px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.adminItemText{
+    margin: 0px 25px 25px 25px;
+}

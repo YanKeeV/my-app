@@ -1,0 +1,55 @@
+.portfolioContentContainer{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.portfolioDescription{
+    font-size: 32px;
+    color: #C1E8FF;
+    border-radius: 30px;
+    background-color: #052659;
+    padding: 20px 40px 20px 40px;
+}
+
+.projectList{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectItem{
+    width: 450px;
+    background-color: #052659;
+    border-radius: 30px;
+    padding: 20px 50px 30px 50px;
+    margin-bottom: 40px;
+}
+
+.projectItemImg{
+    width: 350px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.projectItemDesc{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.projectItemProjectHref{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.projectItemGitHref{
+    text-decoration: underline; 
+}
+
+.projectItemHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
