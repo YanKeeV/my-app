@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 export const getEducations = async () => {
-  const response = await axios.get('//localhost:5000/educations/get');
+  const response = await axios.get('https://backend.azakana.tech/educations/get');
   return response.data;
 };
 
 export const postEducations = async (data, token) => {
-  const response = await axios.post('//localhost:5000/educations/post', data, {
+  const response = await axios.post('https://backend.azakana.tech/educations/post', data, {
     headers: {
       Authorization: `Bearer ${token}` 
     }
@@ -16,7 +16,7 @@ export const postEducations = async (data, token) => {
 
 export const deleteEducation = async (educationID, token) => {
   try {
-    const response = await axios.delete(`//localhost:5000/educations/delete?educationID=${educationID}`, {
+    const response = await axios.delete(`https://backend.azakana.tech/educations/delete?educationID=${educationID}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }

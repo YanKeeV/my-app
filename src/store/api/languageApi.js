@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 export const getLanguages = async () => {
-  const response = await axios.get('//localhost:5000/languages/get');
+  const response = await axios.get('https://backend.azakana.tech/languages/get');
   return response.data;
 };
 
 export const postLanguages = async (data, token) => {
-  const response = await axios.post('//localhost:5000/languages/post', data, {
+  const response = await axios.post('https://backend.azakana.tech/languages/post', data, {
     headers: {
       Authorization: `Bearer ${token}` 
     }
@@ -16,7 +16,7 @@ export const postLanguages = async (data, token) => {
 
 export const deleteLanguage = async (languageID, token) => {
   try {
-    const response = await axios.delete(`//localhost:5000/languages/delete?languageID=${languageID}`, {
+    const response = await axios.delete(`https://backend.azakana.tech/languages/delete?languageID=${languageID}`, {
       headers: {
         Authorization: `Bearer ${token}` 
       }
